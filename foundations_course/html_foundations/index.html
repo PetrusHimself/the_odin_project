@@ -1,10 +1,35 @@
+<!--
+Every HTML page starts with a doctype declaration. The doctype’s purpose is to tell the browser what version of HTML it should use to render the document. The latest version of HTML is HTML5   
+-->
 <!DOCTYPE html>
+<!--
+lang specifies the language of the text content in that element. This attribute is primarily used for improving accessibility of the webpage. It allows assistive technologies, for example screen readers, to adapt according to the language and invoke correct pronunciation.
+-->
 <html lang="en">
+<!--
+Head Element
+The <head> element is where we put important meta-information about our webpages, and stuff required for our webpages to render correctly in the browser. Inside the <head>, we should not use any element that displays content on the webpage.
+
+The Charset Meta Element
+We should always have the meta tag for the charset encoding of the webpage in the head element: <meta charset="utf-8">.
+
+Setting the encoding is very important because it ensures that the webpage will display special symbols and characters from different languages correctly in the browser.
+
+Title Element
+Another element we should always include in the head of an HTML document is the title element:
+
+<title>My First Webpage</title>
+
+The title element is used to give webpages a human-readable title which is displayed in our webpage’s browser tab.
+-->
     <head>
     <meta charset="UTF-8">
     <title>My First Webpage</title>
   </head>
   <body>
+<!--
+The final element needed to complete the HTML boilerplate is the <body> element. This is where all the content that will be displayed to users will go - the text, images, lists, links, and so on.
+-->
 	  <h1>Hello World!</h1>
   </body>
 </html>
